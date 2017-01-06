@@ -15,27 +15,142 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <!-- <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"> -->
+  <link rel="stylesheet" href="css/font.css">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/runic.css">
+
+  <!-- Script
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/runic.js"></script>
+  <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
 </head>
-<body>
+<body class="code-snippets-visible">
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
-    <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h4>Welcome to Runic Thailand</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+    <!-- header -->
+    <section class="header">
+      <img class="title" width="35%" height="35%" src="images/runicth.svg">
+      <h1 class="title">Runic</h1>
+      <h4 class="title">Handmade pre-built coils, parts and accessories.</h2>
+      <!-- <a class="button button-primary" href="https://github.com/dhg/Skeleton/releases/download/2.0.4/Skeleton-2.0.4.zip" onclick="_gaq.push(['_trackEvent', 'skeleton', 'download'])">Download</a> -->
+      <br><br>
+    </section>
+
+    <!-- navbar -->
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="#coils">Pre-built coils</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#partsAndAccessories">Parts & Accessories</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#about">About</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#contat">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- coils -->
+    <div class="docs-section" id="coils">
+      <h6 class="docs-header">Pre-built Coils</h6>
+      <p>
+        Our pre-built coils are exquisitely handmade, one piece at a time, using an imported premium wire from USA.
+        <br>You can be sure that our coils will last longer than others.
+        <br> All coils are well packed in a clear acrylic casket which can be used as an atomizer stand !
+      </p>
+
+      <h6 class="docs-header">Fused Clapton</h6>
+      <div class="docs-example">
+        <div class="row">
+          <div class="one-half column">
+            <strong>26ga x 2 / 36ga Ni80</strong>
+            <p>
+              <br>Specification: 26ga x 2 / 36ga
+              <br>Premium Ni80 wire imported from USA
+              <br>Options: 2.5mm or 3.0 diameter
+              <br><br>2.5mm Resistance:
+              <br>&nbsp&nbsp&nbsp&nbsp- Dual coil 0.1Ω - 0.12Ω
+              <br>&nbsp&nbsp&nbsp&nbsp- Single coil
+              <br>3.0mm Resistance:
+              <br>&nbsp&nbsp&nbsp&nbsp- Dual coil 0.1Ω - 0.12Ω
+              <br>&nbsp&nbsp&nbsp&nbsp- Single coil
+            </p>
+          </div>
+          <div class="one-half column">
+            <strong>28ga x 2 / 36ga Ni80</strong>
+            <p>
+              <br>Specification: 28ga x 2 / 36ga
+              <br>Premium Ni80 wire imported from USA
+              <br>Options: 2.5mm or 3.0 diameter
+              <br><br>2.5mm Resistance:
+              <br>&nbsp&nbsp&nbsp&nbsp- Dual coil 0.1Ω - 0.12Ω
+              <br>&nbsp&nbsp&nbsp&nbsp- Single coil
+              <br>3.0mm Resistance:
+              <br>&nbsp&nbsp&nbsp&nbsp- Dual coil 0.1Ω - 0.12Ω
+              <br>&nbsp&nbsp&nbsp&nbsp- Single coil
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h6 class="docs-header">Alien Clapton</h6>
+      <div class="docs-example">
+        <div class="row">
+          <div class="one-half column">
+            <p>
+              <strong>26ga x 3 / 36ga Ni80</strong>
+            </p>
+          </div>
+          <div class="one-half column">
+            <p>
+              <strong>28ga x 3 / 36ga Ni80</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+      <h6 class="docs-header">Staggered Fused Clapton</h6>
+      <div class="docs-example">
+        <div class="row">
+          <div class="one-half column">
+            <p>
+              <strong>[28ga Ni80 / 32ga Kanthal A1] x 2 / 32ga Kanthal A1</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- parts & accessories -->
+    <div class="docs-section" id="partsAndAccessories">
+      <h6 class="docs-header">Parts & Accessories</h6>
+      <p>Be sure to use properly formed table markup with <code>&lt;thead&gt;</code> and <code>&lt;tbody&gt;</code> when building a <code>table</code>.</p>
+
+      <h6 class="docs-header">510 Drip tips</h6>
+      <div class="docs-example">
+        <div class="row">
+          <div class="one-half column">
+            <p>
+              <strong>26ga x 2 / 36ga Ni80</strong>
+            </p>
+          </div>
+          <div class="one-half column">
+            <p>
+              <strong>28ga x 2 / 36ga Ni80</strong>
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
