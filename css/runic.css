@@ -84,6 +84,12 @@
 .navbar {
   display: none; }
 
+@@media (min-width: 500px) {
+  .image {
+    width: 10%;
+    height: 10%; }
+}
+
 /* Larger than phone */
 @media (min-width: 550px) {
   .header {
@@ -223,3 +229,12 @@
   .popover-item:first-child .popover-link:hover:after {
     border-bottom-color: #33C3F0; }
 }
+
+/* runic custom */
+/*.image:hover img {
+    -webkit-transform:scale(1.5); /* Safari and Chrome */
+    -moz-transform:scale(1.5); /* Firefox */
+    -ms-transform:scale(1.5); /* IE 9 */
+    -o-transform:scale(1.5); /* Opera */
+     transform:scale(1.5);
+}*/
